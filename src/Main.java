@@ -1,6 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)
+    public static <string> void main(String[] args)
     {
         int intOperandA = 10;
         int intOperandB = 8;
@@ -38,6 +38,23 @@ public class Main
         System.out.println("The quotient of " + doubleOperandA + " and " +doubleOperandB + " is " + doubleQuotient );
         doubleModulo =  doubleOperandA / doubleOperandB;
         System.out.println("The modulo of " + doubleOperandA + " and " +doubleOperandB + " is " + doubleModulo );
+
+        int numKids = 2;
+        System.out.println( " I have " + numKids + " kids. ");
+        boolean isRaining = false;
+        System.out.println( " Is it raining? " + isRaining );
+        double gaPrice = 3.07;
+        System.out.println( " How much is gas? " + gaPrice );
+        int favNum = 7;
+        System.out.println( " My favorite number is " + favNum );
+        double shoeSize = 9.5;
+        System.out.println( " My shoe size is " + shoeSize );
+        String bMonth = " August ";
+        System.out.println( " My birth month is " + bMonth );
+        String fullName = "Stefanie Michele Gay";
+        System.out.println( " My name is " + fullName );
+
+
 
     }
 }
