@@ -17,7 +17,7 @@ public class Main
         double doubleDifference = 12.5;
         double doubleQuotient = 4.0;
         double doubleModulo = 3.0;
-        // arithmetic operations
+        // arithmetic operations with outputs
         intSum = intOperandA + intOperandB;
         System.out.println( " The sum of " + intOperandA  + " and " + intOperandB + " is " + intSum );
         intProduct = intOperandA * intOperandB;
@@ -38,7 +38,7 @@ public class Main
         System.out.println("The quotient of " + doubleOperandA + " and " +doubleOperandB + " is " + doubleQuotient );
         doubleModulo =  doubleOperandA / doubleOperandB;
         System.out.println("The modulo of " + doubleOperandA + " and " +doubleOperandB + " is " + doubleModulo );
-
+        //fun with variable types and outputs
         int numKids = 2;
         System.out.println( " I have " + numKids + " kids. ");
         boolean isRaining = false;
